@@ -1,0 +1,40 @@
+{
+	"name": "beeyond",
+	"private": true,
+	"scripts": {
+		"start": "meteor run",
+		"unittest": "printf '\\e[0;32m Meteor UNIT-TESTS in Safari (Port 3500) \\e[0m\\n'; meteor test --driver-package cultofcoders:mocha --port 3500 --settings settings-unittest.json;"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.0.0-beta.44",
+		"autosize": "^4.0.1",
+		"aws-sdk": "^2.224.1",
+		"d3": "^4.13.0",
+		"d3-pie": "^1.1.0",
+		"d3-svg": "^0.2.2",
+		"data-anonymizer": "^0.1.0",
+		"later": "^1.2.0",
+		"meteor-node-stubs": "^0.3.3",
+		"moment": "^2.22.2",
+		"moment-timezone": "^0.5.16",
+		"node-cmd": "^3.0.0",
+		"numeral": "^2.0.6",
+		"pushover-notifications": "^0.2.4",
+		"ua-parser-js": "^0.7.17"
+	},
+	"devDependencies": {
+		"@meteorjs/eslint-config-meteor": "^1.0.5",
+		"babel-eslint": "^8.2.2",
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-config-airbnb-base": "^12.1.0",
+		"eslint-import-resolver-meteor": "^0.4.0",
+		"eslint-plugin-import": "^2.10.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-meteor": "^4.2.0",
+		"eslint-plugin-react": "^7.7.0"
+	},
+	"eslintConfig": {
+		"extends": "@meteorjs/eslint-config-meteor"
+	}
+}
